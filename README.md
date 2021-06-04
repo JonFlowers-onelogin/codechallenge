@@ -14,7 +14,7 @@ Improper fractions and whole numbers are also allowed as operands
 The only dependency is Swift's Foundation framework. In theory, this could run on a supported linux instance (untested).
 
 
-## Requiments
+## Requirements
 
 Minimum system: macOS Mojave 10.14.4
 Developed on: macOS Big Sur 11.3
@@ -27,7 +27,7 @@ There is no 3rd party dependencies.
 
 ## Build Instructions:
 
-Thsi is  a swift package with no xcodeproect included. Developed with Xcode 12.5.
+This is  a swift package with no xcodeproect included. Developed with Xcode 12.5.
 
 The project can be built via Xcode or from command line.
 
