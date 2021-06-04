@@ -66,4 +66,13 @@ final class oneloginTests: XCTestCase
         XCTAssertEqual(c.answer(), "2_1/72")
     }
     
+    func testValid() throws
+    {
+        let c = Calc("3/8 + 3/8 -")
+        XCTAssertFalse(c.isValid())
+        
+        let d = Calc("3/8 + 3/8 - 4/5")
+        XCTAssertTrue(d.isValid())
+    }
+    
 }
